@@ -1,12 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS DO SITE*/
 body{
     background-color: #0C0B0B;
+    color: #fff;
+}
+.profile-content{
+    background-color: #0F0E0E;
+    width: 70%;
+    padding: 2%;
+    margin: 10%;
+}
+.profile-container{
+    display: flex;
+    flex-direction: row;
 }
 #Avatar_url{
-
+    width: 15vw;
+    border-radius: 50%;
 }
 #user-name{
-
+    font-size: 2vw;
+    color: rgb(238, 238, 238);
 }
 #name-username{
+    font-size: 1.5vw;
+    margin-left: 10px;
+    color: rgb(161, 161, 161);
+}
+.user-info{
+    margin-top: 5%;
+    margin-left: 2%;
+}
 
+.card-container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card{
+    width: 21vw;
+    min-width: 25%;
+    height: 150px;
+    margin-right: 2%;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+}
+.texto-card{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.9vw;
+}
+.link{
+    margin-left: 31vw;
+}
+.link > a> img{
+    width: 6vw;
+}
+.title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vw;
+    margin: 15% 0 10% 0;
+}
+.green{
+    background-color: #046313;
+}
+.yellow{
+    background-color: #725200;
+}
+.blue{
+    background-color: #044A7D;
 }

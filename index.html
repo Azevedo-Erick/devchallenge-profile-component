@@ -3,33 +3,34 @@
     <head>
         <title></title>
         <link rel="" >
-        <link rel="Stylesheet">
+        <link rel="Stylesheet" href="./index.css">
     </head>
     <body>
         <div>
             <div class="profile-content">
                 <div class="profile-container">
                     <img  alt="" id="Avatar_url" onload="imageOption()">
-                    <div>
+                    <div class="user-info">
                         <p id="user-name" onload="imageOption()"></p>
                         <p id="name-username" onload="imageOption()"></p>
-                        <div class="link">
-
-                        </div>
+                        
+                </div>
+                    <div class="link">
+                        <a href="https://github.com/Azevedo-Erick" target="_blank"><img src="./image/github.png"></a>
                     </div>
                 </div>
                 <div class="card-container">
                     <div class="card green">
-                        <p>Projetos</p>
-                        <p id="Public_Repos" onload="loadText()"></p>
+                        <p class="title">Projetos</p>
+                        <p id="Public_Repos" class="texto-card" onload="loadText()"></p>
                     </div>
                     <div class="card blue">
-                        <p>Seguindo</p>
-                        <p id="Folowing" onload="loadText()"></p>
+                        <p class="title">Seguindo</p>
+                        <p class="texto-card" id="Folowing" onload="loadText()"></p>
                     </div>
                     <div class="card yellow">
-                        <p>Seguidores</p>
-                        <p id="Folowers" onload="loadText()"></p>
+                        <p class="title">Seguidores</p>
+                        <p id="Folowers" class="texto-card" onload="loadText()"></p>
                     </div>
                 </div>
             </div>
