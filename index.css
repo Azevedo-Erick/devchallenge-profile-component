@@ -50,10 +50,12 @@ body{
     color: #fff;
 }
 .profile-content{
-    background-color: #0F0E0E;
+    background-color: #030303;
     width: 70%;
     padding: 2%;
     margin: 10%;
+    border: 1px solid #fff;
+    border-radius: 1%;
 }
 .profile-container{
     display: flex;
@@ -62,15 +64,18 @@ body{
 #Avatar_url{
     width: 15vw;
     border-radius: 50%;
+    border: 2px solid #fff;
 }
 #user-name{
     font-size: 2vw;
     color: rgb(238, 238, 238);
+    text-shadow:#000 .5px -.5px, #000 -.5px .5px, #000 .5px .5px, #000 -.5px -.5px;
 }
 #name-username{
     font-size: 1.5vw;
     margin-left: 10px;
     color: rgb(161, 161, 161);
+    text-shadow:#000 .5px -.5px, #000 -.5px .5px, #000 .5px .5px, #000 -.5px -.5px;
 }
 .user-info{
     margin-top: 5%;
@@ -93,10 +98,12 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    border: 1px solid #fff;
     align-items: center;
 }
 p{
     font-family: 'Rubik', sans-serif;
+    text-shadow:#000 .5px -.5px, #000 -.5px .5px, #000 .5px .5px, #000 -.5px -.5px
 }
 .texto-card{
     font-family: 'Rubik', sans-serif;
@@ -114,11 +121,11 @@ p{
     margin: 15% 0 10% 0;
 }
 .green{
-    background-color: #046313;
+    background-color: #007714;
 }
 .yellow{
-    background-color: #725200;
+    background-color: #976700;
 }
 .blue{
-    background-color: #044A7D;
+    background-color: #004a61;
 }
